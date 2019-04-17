@@ -1,0 +1,4 @@
+name = Fr1_simple_test
+popt = CP
+nloc = 39938
+nind = 302

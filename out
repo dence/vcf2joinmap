@@ -1,0 +1,10 @@
+LG_file is:	
+/Users/danielence/Documents/project_folders/mapping_projects/pine_genome/Fr1_pinus_taeda/sequence_capture_probe_design/LG_scaffold_file.txt
+Traceback (most recent call last):
+  File "vcf2R_qtl_CSVs.py", line 147, in <module>
+    main(args)
+  File "vcf2R_qtl_CSVs.py", line 13, in main
+    converter.make_CSVs(args.out)
+  File "vcf2R_qtl_CSVs.py", line 34, in make_CSVs
+    out_file =  open(out_filename,'w')
+NameError: global name 'out_filename' is not defined
